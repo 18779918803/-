@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TrafficTeach:war exploded">
+    <output-path>$PROJECT_DIR$/target/iservice-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>TrafficTeach</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TrafficTeach" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka_2.11:0.8.2.1" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-xml_2.11:1.0.2" />
+          <element id="library" level="project" name="Maven: com.yammer.metrics:metrics-core:2.2.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.2" />
+          <element id="library" level="project" name="Maven: com.101tec:zkclient:0.3" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.11.5" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.2.0" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.1.6" />
+          <element id="library" level="project" name="Maven: org.apache.spark:spark-tags_2.11:2.2.1" />
+          <element id="library" level="project" name="Maven: org.spark-project.spark:unused:1.0.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/iservice-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="TrafficTeach/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/libs/fastjson-1.2.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libs/fastutil-7.0.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libs/kafka_2.10-0.8.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libs/mysql-connector-java-5.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libs/spark-assembly-1.6.0-hadoop2.4.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/libs/spark-examples-1.6.0-hadoop2.6.0.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="fastjson-1.2.11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/fastjson-1.2.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fastutil-7.0.11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/fastutil-7.0.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kafka_2.10-0.8.2.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/kafka_2.10-0.8.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mysql-connector-java-5.1.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/mysql-connector-java-5.1.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spark-assembly-1.6.0-hadoop2.4.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spark-assembly-1.6.0-hadoop2.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/bagel/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/core/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/core/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/core/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/dev/audit-release/maven_app_core/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/examples/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/flume/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/flume/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/kafka/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/kafka/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/mqtt/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/mqtt/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/twitter/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/twitter/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/zeromq/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/external/zeromq/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/extras/java8-tests/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/extras/kinesis-asl/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/extras/kinesis-asl/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/graphx/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/graphx/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/launcher/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/launcher/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/mllib/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/mllib/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/network/common/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/network/common/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/network/shuffle/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/network/shuffle/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/network/yarn/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/sql/catalyst/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/sql/core/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/sql/core/src/test/gen-java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/sql/core/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/sql/hive/src/main/scala" />
+          <root url="file://$MODULE_DIR$/../../doc/spark/spark_base/003_software/spark-1.6.0/sql/hive/src/test/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spark-examples-1.6.0-hadoop2.6.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spark-examples-1.6.0-hadoop2.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.11" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka_2.11:0.8.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-xml_2.11:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.yammer.metrics:metrics-core:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.101tec:zkclient:0.3" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.14" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.11.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:0.8.2.1" level="project" />
+    <orderEntry type="library" name="Maven: net.jpountz.lz4:lz4:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-tags_2.11:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.spark-project.spark:unused:1.0.0" level="project" />
+  </component>
+</module>

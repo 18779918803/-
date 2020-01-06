@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="traffc">
+    <output-path>$PROJECT_DIR$/out/artifacts/traffc</output-path>
+    <root id="archive" name="traffc.jar">
+      <element id="module-output" name="TrafficTeach" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/fastjson-1.2.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/fastutil-7.0.11.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/conf" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/mysql-connector-java-5.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
